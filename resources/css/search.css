@@ -1,0 +1,138 @@
+#header-container > ul > a:nth-child(2) {
+    background-color: #282828;
+}
+
+#header-container > ul > a:not(#header-container > ul > li:nth-child(2)):hover {
+    background-color: #282828;
+}
+
+#search {
+    display: flex;
+    width: 100%;
+}
+
+#search-container {
+    margin-top: 50px;
+    width: 100%;
+}
+
+aside {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    left: 0;
+    float: bottom;
+    width: 400px;
+    height: 630px;
+    padding: 10px;
+    border-right: 2px solid #000;
+}
+
+.servise-container {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.photo {
+    margin: 0 auto 5px;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #000;
+}
+
+.servise-container > p {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.servise-container > a {
+    text-decoration: none;
+}
+
+.servise-container > a > input {
+    display: block;
+    margin: 20px auto;
+    height: 25px;
+    width: 100px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.servise-container > a > input:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+#search-content > input {
+    width: 391px;
+}
+
+#search-content {
+    width: 650px;
+    margin: 0 auto;
+}
+
+#search-content-input {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+#search-content-input > input[type = "submit"] {
+    height: 25px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+#search-content-input > input[type = "submit"]:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#search-content-input > input[type = "text"] {
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    height: 25px;
+}
+
+#search-container-filter > p:nth-child(1) {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#map-container {
+    margin: 30px auto;
+    padding: 5px;
+    width: 800px;
+    height: 350px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+[class*="copyrights-pane"] {
+  display: none !important;
+}

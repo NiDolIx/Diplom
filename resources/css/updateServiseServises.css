@@ -1,0 +1,103 @@
+#link {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+
+#link:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.add-servises {
+    padding-top: 30px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+select {
+    height: 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+}
+
+form > input {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    font-weight: 600;
+}
+
+form > input:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 26px;
+    font-weight: 600;
+    caption-side: top;
+    margin-bottom: 5px;
+}
+
+tr, th, td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #000;
+    height: 30px;
+    vertical-align: middle;
+}
+
+tr:first-child {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+th {
+    width: 160px;
+}
+
+td {
+    font-size: 20px
+}
+
+tr > input {
+    display: block;
+}
+
+table > tr > td:last-child {
+    border-right: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}

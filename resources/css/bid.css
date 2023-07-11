@@ -1,0 +1,76 @@
+#header-container > ul > a:last-child {
+    background-color: #282828;
+}
+
+#header-container > ul > a:not(#header-container > ul > li:last-child):hover {
+    background-color: #282828;
+}
+
+
+#bid {
+    display: flex;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+#bid > .bid-container {
+    width: 100%;
+    text-align: center;
+    border: 2px solid #000;
+    border-top: none;
+    border-bottom: none;
+}
+
+#bid > .bid-container > h2 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.bid-active {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+.bid-active > p {
+    font-size: 18px;
+    width: 95%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+hr {
+    width: 95%
+}
+
+form {
+    display: inline;
+    margin-right: 10px;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    margin: 15px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    transition: all .7s;
+}
+
+input:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+} 
+
+
+#bid-active > a {
+    display: inline;
+}
